@@ -28,6 +28,8 @@ The cleaned datasets were imported into an SQLite database named `matk663_DB.db`
 - **Most Harmful Pollutants**: Carbon Monoxide (CO) is the most harmful pollutant, contributing 66% to worsening air quality. Particulate Matter (PM10) and Non-Methane Volatile Organic Compounds (NMVOC) follow at 22% and 18% respectively.
 - **Emission and Air Quality Relationship**: There are expected correlations between high emissions and poor air quality in countries like the USA. However, outliers like Russia and Canada show differing patterns.
 
+![image](https://github.com/maysar44/AirQuality-Emissions-Analysis/assets/173674412/8bcf5d2d-b8c1-49b4-b70d-75bc46c8c876)
+
 ## Analysis
 ### SQL Queries
 1. **Top Three Most Harmful Pollutants**:
@@ -114,5 +116,4 @@ ORDER BY
 LIMIT 10;
 ```
 Result: Six out of the ten top emitters had maximum AQI values under 150, indicating a moderate to unhealthy level for sensitive groups.
-![image](https://github.com/maysar44/AirQuality-Emissions-Analysis/assets/173674412/8bcf5d2d-b8c1-49b4-b70d-75bc46c8c876)
 
